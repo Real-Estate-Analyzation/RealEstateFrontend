@@ -142,7 +142,7 @@ The script defines a function when the page loads. This function is triggered wh
                 console.log(errorMsg);
                 return;
             }
-            window.location.href = "{{site.baseurl}}/data/database";
+            window.location.href = "{{site.baseurl}}/database";
         })
         // catch fetch errors (ie ACCESS to server blocked)
         .catch(err => {
